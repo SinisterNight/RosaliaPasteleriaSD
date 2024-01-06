@@ -1,0 +1,99 @@
+header {
+  background-color: #ffb6ad;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Bradley Hand', cursive;
+  
+}
+nav > div {
+  background-color: #ffb6ad; 
+}
+
+.logo {
+  color: white;
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-family: 'Bradley Hand', cursive;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  background-color: #ffb6ad;
+}
+
+.nav-links li {
+  color: white;
+  background-color: #ffb6ad;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #fff0ed; /* Lighter pink color on hover */
+}
+
+.cool-table {
+  width: 25%;
+  border-collapse: collapse;
+  font-family: 'Bradley Hand', cursive;
+  position: absolute;
+}
+
+.cool-table th {
+  background-color: #fff0ed;
+  border: 1px solid #ffb6ad;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.cool-table td {
+  border: 1px solid #ffb6ad;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.cool-table tbody tr:nth-child(even) {
+  background-color: #fff0ed;
+}
+
+.cool-table tbody tr:hover {
+  background-color: #ddd;
+}
+.socials{
+	position: absolute;
+	right: 10%;
+	top: 10%;
+	justify-content: space-between;
+	display: flex;
+	margin: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+.socials h2 {
+  margin-bottom: 10px;
+}
+
+.socials .social-icon {
+  margin-right: 10px;
+}
+.socials p {
+	font-size: 12px;
+}
+.contact p {
+	bottom: 10%;
+}
+
