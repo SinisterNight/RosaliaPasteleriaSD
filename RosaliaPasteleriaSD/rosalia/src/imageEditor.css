@@ -3,13 +3,18 @@
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 44px;
   padding-left: 15px;
+  padding-top: 15px;
+  
 }
 
 .imageItem {
   width: 200px;
   height: 200px;
-  transition: transform 0.3s;
   overflow: hidden;
+  transition: transform 0.3s;
+  outline-width: 2px;
+  outline-color: #ffb6ad;
+  outline-style: groove;
 }
 
 .imageItem:hover {
